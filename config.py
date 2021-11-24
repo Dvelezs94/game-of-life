@@ -1,0 +1,6 @@
+WINDOW_WIDTH = 400 
+WINDOW_HEIGHT = 400
+FPS = 15
+BLACK = 0,0,0
+WHITE = 255,255,255
+BLOCK_SIZE = 4 #used for the grid items size
