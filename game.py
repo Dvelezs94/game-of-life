@@ -17,7 +17,7 @@ class Generation:
         print(f'Initiated generation {self.number} with {len(grid_cells)} cells')
 
     def __repr__(self):
-        return f'Generation #{self.number} with {len(self.grid_cells)} cells.'
+        return f'Generation(number = {self.number}, grid_cell_number = {len(self.grid_cells)})'
 
 @dataclass
 class Game:
